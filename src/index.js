@@ -1,3 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
+  let paragraph = document.getElementById("text")
+  paragraph.textContent = "This is really cool!"
 });
